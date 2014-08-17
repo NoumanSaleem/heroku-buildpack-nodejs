@@ -127,6 +127,9 @@ if [ ! -e $build_dir/Procfile ]; then
   fi
 fi
 
+# Install pdftk
+apt-get install pdftk
+
 # Update the PATH
 status "Building runtime environment"
 mkdir -p $build_dir/.profile.d

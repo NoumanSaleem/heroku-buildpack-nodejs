@@ -128,7 +128,8 @@ if [ ! -e $build_dir/Procfile ]; then
 fi
 
 # Install pdftk
-apt-get install pdftk
+echo "Installing pdftk"
+apt-get install -y pdftk
 
 # Update the PATH
 status "Building runtime environment"

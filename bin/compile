@@ -54,7 +54,7 @@ PATH=$build_dir/vendor/node/bin:$PATH
 
 # Install pdftk
 echo "Installing pdftk"
-git clone https://github.com/millie/pdftk-source.git $build_dir
+git clone https://github.com/millie/pdftk-source.git $build_dir/pdftk-source
 tar xzvf pdftk.tar.gz $build_dir/pdftk-source
 mv $build_dir/pdftk-source $build_dir/vendor/pdftk
 
